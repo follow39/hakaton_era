@@ -224,8 +224,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 1920
+    height: 80
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 136566379}
   - component: {fileID: 136566378}
   m_Layer: 5
-  m_Name: Panel (2)
+  m_Name: WorkPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -564,10 +564,10 @@ Canvas:
   m_GameObject: {fileID: 1082312382}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 104172236}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -716,12 +716,12 @@ Prefab:
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -839.5
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -127.725006
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
@@ -762,6 +762,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103289660900650, guid: 881adb70cc1ba654b90c62f21312dc75, type: 2}
+      propertyPath: m_Name
+      value: DeviceIED2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881adb70cc1ba654b90c62f21312dc75, type: 2}
