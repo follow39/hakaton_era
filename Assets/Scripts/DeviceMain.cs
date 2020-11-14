@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class DeviceMain : MonoBehaviour, IPointerDownHandler
+public class DeviceMain : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     private bool dragging = false;
 
