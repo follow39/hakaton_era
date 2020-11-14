@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ContentMaker : MonoBehaviour
 {
@@ -34,7 +35,7 @@ public class ContentMaker : MonoBehaviour
 			
 			temp.transform.Find("Panel").transform.Find("LevelName").GetComponent<Text>().text = level.name;
 			temp.transform.Find("Panel").transform.Find("LevelState").GetComponent<Text>().text = level.state? "Выполнено" : "Не решено";
-
+			temp.transform.Find("Panel").transform.Find("LoadLevelButton").GetComponent<Button>().onClick.AddListener(OnClickButton);
 			y -= 50;
 		}
 		//filling scroll---------------------------		
@@ -44,5 +45,10 @@ public class ContentMaker : MonoBehaviour
 	void Update ()
 	{
 		
+	}
+
+	void OnClickButton()
+	{		
+		SceneManager.LoadScene("TrainScene");
 	}
 }

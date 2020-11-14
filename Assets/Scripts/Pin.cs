@@ -26,7 +26,7 @@ public class Pin : MonoBehaviour
 		if (ProgramData.CurrentConnection == null)
 		{
 			GameObject new_connection = Instantiate(ConnectionPrefab) as GameObject;
-			new_connection.GetComponent<Connection>().pin1 = gameObject;
+			new_connection.GetComponent<Connection>().pin1 = gameObject;//.transform.Find("PinObject").gameObject;
 			ProgramData.CurrentConnection = new_connection;
 			new_connection.transform.SetParent(GameObject.Find("WorkPanel").transform, true);
 		}
