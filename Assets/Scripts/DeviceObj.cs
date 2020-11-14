@@ -28,6 +28,6 @@ public class DeviceObj : MonoBehaviour, IPointerExitHandler
 	public void OnPointerExit(PointerEventData eventData)
 	{
 		gameObject.transform.Find("Panel").gameObject.SetActive(false);
-		Debug.Log("Exit");
+		// Debug.Log("Exit");
 	}
 }

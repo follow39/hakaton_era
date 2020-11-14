@@ -7,9 +7,10 @@ using UnityEngine.EventSystems;
 public class DeviceMain : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     private bool dragging = false;
+    public DeviceSettings deviceSettings;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
 	{
 		
 	}
