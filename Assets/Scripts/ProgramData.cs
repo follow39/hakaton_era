@@ -16,4 +16,6 @@ public static class ProgramData
 	public static int level;
 	public static List<LevelInformation> levelsList = new List<LevelInformation>();
 
+	public static GameObject CurrentConnection; 
+
 }
