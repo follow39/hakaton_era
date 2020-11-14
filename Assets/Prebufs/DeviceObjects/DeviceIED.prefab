@@ -107,6 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4253797906386358}
+  - component: {fileID: 114159106448261986}
   m_Layer: 0
   m_Name: PinObject
   m_TagString: Untagged
@@ -202,6 +203,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114159106448261986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979309518192566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e718c10c312c0459089da188f2bb72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ConnectionPrefab: {fileID: 1517226223783442, guid: d0253a47ec277594992363ba7ad5e3c5,
+    type: 2}
 --- !u!114 &114181448869182076
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -416,7 +430,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -260, y: 131}
+  m_AnchoredPosition: {x: -157, y: 106}
   m_SizeDelta: {x: 100, y: 115}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224300485490110436

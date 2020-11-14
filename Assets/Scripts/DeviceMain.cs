@@ -21,8 +21,7 @@ public class DeviceMain : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         if (dragging)
 		{
             transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        }
-		
+        }		
 	}
 
     public void OnPointerDown(PointerEventData eventData)
