@@ -9,7 +9,8 @@ public class DeviceMain : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private bool dragging = false;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
@@ -22,22 +23,6 @@ public class DeviceMain : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
 		
 	}
-
-	
-    // public void OnMouseDrag()
-	// {		
-    // 	Vector3 point;
-	// 	float x;
-	// 	float y;
-	// 	float z;
-		
-    //     x = Input.mousePosition.x;
-    //     y = Input.mousePosition.y;
-    //     z = gameObject.transform.position.z;
-
-    //     point = Camera.main.ScreenToWorldPoint (new Vector3 (x, y, z));
-    //     gameObject.transform.position = point;
-	// }
 
     public void OnPointerDown(PointerEventData eventData)
 	{
