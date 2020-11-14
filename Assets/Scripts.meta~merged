@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+guid: 375c00c8d3734ad4e89eedb8f2b8e02c
+=======
 <<<<<<< Updated upstream:Assets/Prebufs/Forms.meta
 guid: d8b657c895b435149952cee386027152
 =======
 guid: 375c00c8d3734ad4e89eedb8f2b8e02c
 >>>>>>> Stashed changes:Assets/Scripts.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,6 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Assets/Scripts.meta
 guid: 375c00c8d3734ad4e89eedb8f2b8e02c
 folderAsset: yes
+=======
+guid: eaaa74a42474fc74c98cd5db85184625
+>>>>>>> Stashed changes:Assets/Scenes/TrainScene.unity.meta
+=======
+guid: 375c00c8d3734ad4e89eedb8f2b8e02c
+folderAsset: yes
+>>>>>>> Stashed changes
 DefaultImporter:
   externalObjects: {}
   userData: 
