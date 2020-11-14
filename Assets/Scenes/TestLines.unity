@@ -349,7 +349,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 246346171}
-  - {fileID: 1587138408}
+  - {fileID: 1598456079}
   m_Father: {fileID: 1082312386}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -666,7 +666,7 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177869899}
   m_CullTransparentMesh: 0
---- !u!1001 &1587138407
+--- !u!1001 &1598456078
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -716,12 +716,12 @@ Prefab:
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 112
+      value: -839.5
       objectReference: {fileID: 0}
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 88
+      value: -127.725006
       objectReference: {fileID: 0}
     - target: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
         type: 2}
@@ -763,15 +763,11 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1103289660900650, guid: 881adb70cc1ba654b90c62f21312dc75, type: 2}
-      propertyPath: m_Name
-      value: DeviceIED2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 881adb70cc1ba654b90c62f21312dc75, type: 2}
   m_IsPrefabAsset: 0
---- !u!224 &1587138408 stripped
+--- !u!224 &1598456079 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224235162081345496, guid: 881adb70cc1ba654b90c62f21312dc75,
     type: 2}
-  m_PrefabInternal: {fileID: 1587138407}
+  m_PrefabInternal: {fileID: 1598456078}
