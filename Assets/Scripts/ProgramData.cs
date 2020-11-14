@@ -15,11 +15,10 @@ public static class ProgramData
     public static UserType CurrentUserType;
 	public static int level;
 	public static List<LevelInformation> levelsList = new List<LevelInformation>();
-<<<<<<< HEAD
+
     public static List<GameObject> Devices = new List<GameObject>();
 
-=======
->>>>>>> 0919fcb3a2e1f5a5960bcf275ea859b770c04e45
+
 	public static GameObject CurrentConnection = null; 
 	public static List<Connection> connectionList = new List<Connection>();
 }

@@ -29,8 +29,16 @@ public class PanelLvl : MonoBehaviour {
         }
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	public void VisuallyImpaired()
+    {
+
+    }
+    public void VoiceAssistant()
+    {
+
+    }
+    public void Ask()
+    {
+
+    }
 }
