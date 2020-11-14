@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/TrainScene.unity
+    guid: eaaa74a42474fc74c98cd5db85184625
+  - enabled: 1
+    path: Assets/Scenes/TrainerScene.unity
+    guid: 3378be7a337b13d40aed1928882ecb86
   m_configObjects: {}
