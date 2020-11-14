@@ -13,14 +13,8 @@ public class Connection : MonoBehaviour
 	void Start ()
 	{
 		line = gameObject.GetComponent<LineRenderer>();
-<<<<<<< HEAD
 		line.startWidth = 0.1f;
 		line.endWidth = 0.1f;
-=======
-		line.startWidth = 1f;
-		line.endWidth = 1f;
-		gameObject.layer = 2;
->>>>>>> bf03cb9323ddca6c8e0dc7453ed28fc310eb81b0
 	}
 	
 	// Update is called once per frame
