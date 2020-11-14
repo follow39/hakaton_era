@@ -23,7 +23,15 @@ public class Pin : MonoBehaviour
 
 	void OnClickButton()
 	{
-		GameObject connection = Instantiate(Connection) as GameObject;
-		Connection.GetComponent<Connection>().pin1 = gameObject;
+		if (ProgramData.CurrentConnection == null)
+		{
+			GameObject connection = Instantiate(Connection) as GameObject;
+			Connection.GetComponent<Connection>().pin1 = gameObject;
+		}
+		else
+		{
+			ProgramData.CurrentConnection.GetComponent<Connection>().pin2 = gameObject;
+			ProgramData.CurrentConnection = null;
+		}
 	}
 }
