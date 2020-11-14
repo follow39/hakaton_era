@@ -15,7 +15,6 @@ public static class ProgramData
     public static UserType CurrentUserType;
 	public static int level;
 	public static List<LevelInformation> levelsList = new List<LevelInformation>();
-
 	public static GameObject CurrentConnection = null; 
-
+	public static List<Connection> connectionList = new List<Connection>();
 }
