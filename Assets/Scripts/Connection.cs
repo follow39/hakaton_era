@@ -6,7 +6,6 @@ public class Connection : MonoBehaviour
 {
 	public GameObject pin1 = null;
 	public GameObject pin2 = null;
-
 	LineRenderer line;
 	bool IsFinished = false;
 
@@ -14,9 +13,14 @@ public class Connection : MonoBehaviour
 	void Start ()
 	{
 		line = gameObject.GetComponent<LineRenderer>();
+<<<<<<< HEAD
+		line.startWidth = 0.1f;
+		line.endWidth = 0.1f;
+=======
 		line.startWidth = 1f;
 		line.endWidth = 1f;
 		gameObject.layer = 2;
+>>>>>>> bf03cb9323ddca6c8e0dc7453ed28fc310eb81b0
 	}
 	
 	// Update is called once per frame
@@ -48,7 +52,7 @@ public class Connection : MonoBehaviour
 			if(pin2 != null)
 			{
 				IsFinished = true;
-				line.SetPosition(1, pin2.transform.position);
+				// line.SetPosition(1, pin2.transform.position);
 			}
 		}
 	}
