@@ -21,7 +21,7 @@ public class CreateObject : MonoBehaviour
 
 	void OnCLickButton()
 	{
-		GameObject temp = Instantiate(prefabObj, new Vector3(100, -300, 0), Quaternion.identity) as GameObject;
+		GameObject temp = Instantiate(prefabObj, new Vector3(500, 250, 0), Quaternion.identity) as GameObject;
 		temp.transform.SetParent(GameObject.Find("WorkPanel").transform, true);
 	}
 }
