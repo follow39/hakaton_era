@@ -12,7 +12,7 @@ public class DeviceObj : MonoBehaviour, IPointerExitHandler
 	void Start ()
 	{
 		// button = gameObject.transform.Find("Button").GetComponent<Button>();
-		button.onClick.AddListener(OnClickButton);
+		//button.onClick.AddListener(OnClickButton);
 	}
 	
 	// Update is called once per frame
@@ -28,6 +28,6 @@ public class DeviceObj : MonoBehaviour, IPointerExitHandler
 
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		gameObject.transform.Find("MainPanel").transform.Find("Panel").gameObject.SetActive(false);
+		//gameObject.transform.Find("MainPanel").transform.Find("Panel").gameObject.SetActive(false);
 	}
 }
