@@ -6,6 +6,7 @@ public class Connection : MonoBehaviour
 {
 	public GameObject pin1 = null;
 	public GameObject pin2 = null;
+	public GameObject LineObject;
 	LineRenderer line;
 	bool IsFinished = false;
 
@@ -49,5 +50,18 @@ public class Connection : MonoBehaviour
 				// line.SetPosition(1, pin2.transform.position);
 			}
 		}
+	}
+	private void DrawLine(Vector2 pointA, Vector2 pointB)
+	{
+		float lineWidth = 2;
+	
+		Vector3 differenceVector = pointB - pointA;
+		// var line = Instantiate(prefabLine, this.GetComponent<Transform>());
+		var imageRectTransform = line.GetComponent<RectTransform>();
+		imageRectTransform.sizeDelta = new Vector2(differenceVector.magnitude / CenterImg.canvas.scaleFactor, lineWidth);
+		imageRectTransform.pivot = new Vector2(0, 0.5f);
+		imageRectTransform.localPosition = new Vector3(pointA.x, pointA.y, CenterImg.transform.position.z);
+		float angle = Mathf.Atan2(differenceVector.y, differenceVector.x) * Mathf.Rad2Deg;
+		line.transform.localRotation = Quaternion.Euler(0, 0, angle);
 	}
 }
