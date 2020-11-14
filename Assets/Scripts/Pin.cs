@@ -33,7 +33,6 @@ public class Pin : MonoBehaviour
 		else
 		{
 			ProgramData.CurrentConnection.GetComponent<Connection>().pin2 = gameObject;
-			ProgramData.connectionList.Add(ProgramData.CurrentConnection);
 			ProgramData.CurrentConnection = null;
 		}
 	}
