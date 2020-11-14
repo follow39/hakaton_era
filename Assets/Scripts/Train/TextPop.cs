@@ -18,8 +18,6 @@ public class TextPop : MonoBehaviour {
     public void OnMouseDown()
     {
         _panel = Instantiate(panel,gameObject.transform.parent.parent);
-        _panel.GetComponent<RectTransform>().position = new Vector2(0f+Random.Range(-0.3f,0.3f),0f + Random.Range(-0.3f, 0.3f));
+        _panel.GetComponent<RectTransform>().position = new Vector2(0f + Random.Range(-0.3f,0.3f), 0f + Random.Range(-0.3f, 0.3f));
     }
-    
-
 }
