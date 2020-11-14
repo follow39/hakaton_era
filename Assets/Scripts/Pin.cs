@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Pin : MonoBehaviour 
 {
-	public GameObject Connection;
+	public GameObject ConnectionPrefab;
 	Button button;
 
 	// Use this for initialization
@@ -25,7 +25,7 @@ public class Pin : MonoBehaviour
 	{
 		if (ProgramData.CurrentConnection == null)
 		{
-			GameObject new_connection = Instantiate(Connection) as GameObject;
+			GameObject new_connection = Instantiate(ConnectionPrefab) as GameObject;
 			new_connection.GetComponent<Connection>().pin1 = gameObject;
 			ProgramData.CurrentConnection = new_connection;
 			new_connection.transform.SetParent(GameObject.Find("WorkPanel").transform, true);
