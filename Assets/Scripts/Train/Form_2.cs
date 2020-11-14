@@ -20,7 +20,7 @@ public class Form_2 : MonoBehaviour {
 
                 if (gameObject.transform.GetChild(i).transform.GetChild(ii).name == "Placeholder")
                 {
-                    gameObject.transform.GetChild(i).transform.GetChild(ii).GetComponent<DeviceMain>().deviceSettings.settings[index] = parent.GetComponent<DeviceMain>().deviceSettings.settings[index];
+                    // gameObject.transform.GetChild(i).transform.GetChild(ii).GetComponent<DeviceMain>().deviceSettings.settings[index] = parent.GetComponent<DeviceMain>().deviceSettings.settings[index];
                     index++;
                 }
 
@@ -50,7 +50,7 @@ public class Form_2 : MonoBehaviour {
         }
         if(index==7)
         {
-            parent.GetComponent<DeviceMain>().deviceSettings.settings = _str;
+            // parent.GetComponent<DeviceMain>().deviceSettings.settings = _str;
             Destroy(gameObject);
         }
     }

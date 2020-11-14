@@ -29,7 +29,8 @@ public class Connection : MonoBehaviour
 
 		if(IsFinished)
 		{
-
+			line.SetPosition(0, (Vector2)(GameObject.Find("Main Camera")).GetComponent<Camera>().ScreenToWorldPoint(pin1.transform.position));
+			line.SetPosition(1, (Vector2)(GameObject.Find("Main Camera")).GetComponent<Camera>().ScreenToWorldPoint(pin2.transform.position));
 		}
 		else
 		{

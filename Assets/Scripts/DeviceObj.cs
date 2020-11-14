@@ -23,11 +23,11 @@ public class DeviceObj : MonoBehaviour, IPointerExitHandler
 
 	void OnClickButton()
 	{
-		gameObject.transform.Find("Panel").gameObject.SetActive(true);
+		gameObject.transform.Find("MainPanel").transform.Find("Panel").gameObject.SetActive(true);
 	}
 
 	public void OnPointerExit(PointerEventData eventData)
 	{
-		gameObject.transform.Find("Panel").gameObject.SetActive(false);
+		gameObject.transform.Find("MainPanel").transform.Find("Panel").gameObject.SetActive(false);
 	}
 }
